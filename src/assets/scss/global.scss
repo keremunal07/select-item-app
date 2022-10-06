@@ -49,7 +49,8 @@ body {
   }
   &:hover {
     transition: 500ms;
-    box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   }
   &:hover {
     .removeItem {
