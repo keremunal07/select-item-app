@@ -1,3 +1,5 @@
 # select-item-app
 
-# yarn && yarn dev
+### yarn && yarn dev
+
+#### Typescript, React.js, Vite, Bootstrap, Sass
