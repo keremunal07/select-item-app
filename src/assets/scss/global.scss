@@ -1,0 +1,65 @@
+body {
+  font-family: "Rubik", "system-ui", "sans-serif";
+  background-color: #8c92aa;
+  height: 100vh;
+}
+#root {
+  height: 100%;
+}
+
+.itemListContainer {
+  width: 450px;
+  height: 700px;
+  .box {
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    .itemsWrapper {
+      background-color: #d9d9d9;
+      border-radius: 10px;
+      height: 84%;
+      overflow-y: scroll;
+    }
+  }
+}
+
+.itemBox {
+  cursor: pointer;
+  max-height: 70px;
+  background-color: white;
+  border: 1px solid silver;
+  border-radius: 10px;
+  transition: 500ms;
+  margin: 0.5rem 0;
+  .circle {
+    position: relative;
+    background-color: #99a2fd;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+  }
+  span {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    border-radius: 100px;
+  }
+  &:hover {
+    transition: 500ms;
+    box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px;
+  }
+  &:hover {
+    .removeItem {
+      color: red;
+      transition: 500ms;
+    }
+  }
+}
+
+.method {
+  color: rgb(18, 92, 197);
+  cursor: pointer;
+}
